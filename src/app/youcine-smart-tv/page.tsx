@@ -265,7 +265,7 @@ export default function YouCineSmartTVPage() {
             </div>
             
             <p className="text-slate-300 text-base sm:text-lg leading-relaxed">
-              Youcine APK is a free streaming app that was first built for Android phones. Now, it has grown way beyond that — millions of people are using it on Smart TVs, Fire Sticks, and TV Boxes, because watching on a big screen just feels better.
+              Youcine APK is a free streaming app that was first built for Android phones. Now, it has grown way beyond that — millions of people are using it on Smart TVs, Fire Sticks, and TV Boxes, because watching on a big screen just feels better. If you also stream on other setups, learn how to run the player on your computer display using <a href="/youcine-para-pc" className="text-primary-light hover:underline font-semibold">YouCine for PC</a>, or install it on Apple devices with our guide to <a href="/youcine-ios" className="text-primary-light hover:underline font-semibold">YouCine for iOS</a>.
             </p>
 
             <p className="text-slate-300 text-base sm:text-lg leading-relaxed">

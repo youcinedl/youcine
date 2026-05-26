@@ -276,7 +276,7 @@ export default function YouCineIOSPage() {
                 <div>
                   <h3 className="text-xl sm:text-2xl font-bold text-white mb-3">Is it on the Apple App Store?</h3>
                   <p className="text-slate-350 text-sm sm:text-base leading-relaxed">
-                    Youcine is a third-party app, which means it is NOT officially available on the Apple App Store. But do not worry — you can still easily download and install it on your iPhone or iPad through a simple process.
+                    Youcine is a third-party app, which means it is NOT officially available on the Apple App Store. But do not worry — you can still easily download and install it on your iPhone or iPad through a simple process. If you would rather watch on a desktop computer, check out our guide on <a href="/youcine-para-pc" className="text-primary-light hover:underline font-semibold">YouCine for PC</a>, or setup <a href="/youcine-smart-tv" className="text-primary-light hover:underline font-semibold">YouCine for Smart TV</a> to watch directly on television displays.
                   </p>
                 </div>
                 <div className="mt-6 flex items-center space-x-2 text-secondary-light font-bold text-sm">

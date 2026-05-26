@@ -250,7 +250,7 @@ export default function YouCinePCPage() {
                 <div>
                   <h3 className="text-xl sm:text-2xl font-bold text-white mb-3">Can You Use Youcine on a PC?</h3>
                   <p className="text-slate-350 text-sm sm:text-base leading-relaxed">
-                    More and more people want to use Youcine on their computers to enjoy movies on expansive displays. However, because Youcine is not natively compiled for PC or Mac, you will need a special software tool called an **Android Emulator** to bridge the gap.
+                    More and more people want to use Youcine on their computers to enjoy movies on expansive displays. However, because Youcine is not natively compiled for PC or Mac, you will need a special software tool called an **Android Emulator** to bridge the gap. If you want to watch on Apple devices, visit our guide on <a href="/youcine-ios" className="text-primary-light hover:underline font-semibold">YouCine for iOS</a>, or check out the <a href="/youcine-smart-tv" className="text-primary-light hover:underline font-semibold">YouCine for Smart TV</a> version for big screen TV streaming.
                   </p>
                 </div>
                 <div className="mt-6 flex items-center space-x-2 text-primary-light font-bold text-sm">
