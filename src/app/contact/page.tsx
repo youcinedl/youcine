@@ -4,7 +4,7 @@ import { Mail, MapPin, Phone } from "lucide-react";
 
 export const metadata = generateMeta(
   "Contact Us",
-  "Get in touch with the YouCineApkPro team. We are here to help you with any queries regarding YouCine APK downloads or guides.",
+  "Get in touch with the YouCine-DL team. We are here to help you with any queries regarding YouCine APK downloads or guides.",
   "contact"
 );
 
@@ -25,7 +25,7 @@ export default function ContactPage() {
               </div>
               <div>
                 <h3 className="text-white font-medium">Email Us</h3>
-                <p className="text-slate-400">support@youcineapkpro.com</p>
+                <p className="text-slate-400">support@youcine-dl.com</p>
               </div>
             </div>
             

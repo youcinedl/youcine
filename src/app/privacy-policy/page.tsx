@@ -4,7 +4,7 @@ import { ShieldAlert, Lock, Eye, CheckCircle } from "lucide-react";
 
 export const metadata = generateMeta(
   "Privacy Policy",
-  "Read the Privacy Policy of YouCineApkPro to understand how we collect, use, and protect your personal information.",
+  "Read the Privacy Policy of YouCine-DL to understand how we collect, use, and protect your personal information.",
   "privacy-policy"
 );
 
@@ -18,7 +18,7 @@ export default function PrivacyPolicyPage() {
 
       <div className="prose prose-invert prose-lg max-w-none">
         <p className="text-slate-300">
-          At YouCineApkPro, accessible from https://youcineapkpro.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by YouCineApkPro and how we use it.
+          At YouCine-DL, accessible from https://www.youcine-dl.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by YouCine-DL and how we use it.
         </p>
 
         <div className="grid grid-cols-2 gap-4 my-8">
@@ -32,12 +32,12 @@ export default function PrivacyPolicyPage() {
 
         <h2 className="text-2xl font-bold text-white mt-8 mb-4">Log Files</h2>
         <p className="text-slate-300">
-          YouCineApkPro follows a standard procedure of using log files. These files log visitors when they visit websites. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable.
+          YouCine-DL follows a standard procedure of using log files. These files log visitors when they visit websites. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable.
         </p>
 
         <h2 className="text-2xl font-bold text-white mt-8 mb-4">Cookies and Web Beacons</h2>
         <p className="text-slate-300">
-          Like any other website, YouCineApkPro uses 'cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.
+          Like any other website, YouCine-DL uses 'cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.
         </p>
 
         <div className="grid grid-cols-2 gap-4 my-8">
@@ -51,7 +51,7 @@ export default function PrivacyPolicyPage() {
 
         <h2 className="text-2xl font-bold text-white mt-8 mb-4">Third Party Privacy Policies</h2>
         <p className="text-slate-300">
-          YouCineApkPro's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options.
+          YouCine-DL's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options.
         </p>
 
         <h2 className="text-2xl font-bold text-white mt-8 mb-4">Consent</h2>

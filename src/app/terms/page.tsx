@@ -4,7 +4,7 @@ import { FileText, AlertTriangle } from "lucide-react";
 
 export const metadata = generateMeta(
   "Terms and Conditions",
-  "Terms and Conditions for using the YouCineApkPro website and services.",
+  "Terms and Conditions for using the YouCine-DL website and services.",
   "terms"
 );
 
@@ -13,13 +13,13 @@ export default function TermsPage() {
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
       <div className="text-center mb-12">
         <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">Terms and Conditions</h1>
-        <p className="text-slate-300 text-lg">Welcome to YouCineApkPro!</p>
+        <p className="text-slate-300 text-lg">Welcome to YouCine-DL!</p>
       </div>
 
       <div className="prose prose-invert prose-lg max-w-none">
         <p className="text-slate-300">
-          These terms and conditions outline the rules and regulations for the use of YouCineApkPro's Website, located at https://youcineapkpro.com.
-          By accessing this website we assume you accept these terms and conditions. Do not continue to use YouCineApkPro if you do not agree to take all of the terms and conditions stated on this page.
+          These terms and conditions outline the rules and regulations for the use of YouCine-DL's Website, located at https://www.youcine-dl.com.
+          By accessing this website we assume you accept these terms and conditions. Do not continue to use YouCine-DL if you do not agree to take all of the terms and conditions stated on this page.
         </p>
 
         <div className="grid grid-cols-2 gap-4 my-8">
@@ -33,18 +33,18 @@ export default function TermsPage() {
 
         <h2 className="text-2xl font-bold text-white mt-8 mb-4">Cookies</h2>
         <p className="text-slate-300">
-          We employ the use of cookies. By accessing YouCineApkPro, you agreed to use cookies in agreement with the YouCineApkPro's Privacy Policy.
+          We employ the use of cookies. By accessing YouCine-DL, you agreed to use cookies in agreement with the YouCine-DL's Privacy Policy.
         </p>
 
         <h2 className="text-2xl font-bold text-white mt-8 mb-4">License</h2>
         <p className="text-slate-300">
-          Unless otherwise stated, YouCineApkPro and/or its licensors own the intellectual property rights for all material on YouCineApkPro. All intellectual property rights are reserved. You may access this from YouCineApkPro for your own personal use subjected to restrictions set in these terms and conditions.
+          Unless otherwise stated, YouCine-DL and/or its licensors own the intellectual property rights for all material on YouCine-DL. All intellectual property rights are reserved. You may access this from YouCine-DL for your own personal use subjected to restrictions set in these terms and conditions.
         </p>
         
         <ul className="text-slate-300">
-          <li>Republish material from YouCineApkPro</li>
-          <li>Sell, rent or sub-license material from YouCineApkPro</li>
-          <li>Reproduce, duplicate or copy material from YouCineApkPro</li>
+          <li>Republish material from YouCine-DL</li>
+          <li>Sell, rent or sub-license material from YouCine-DL</li>
+          <li>Reproduce, duplicate or copy material from YouCine-DL</li>
         </ul>
 
         <div className="grid grid-cols-2 gap-4 my-8">

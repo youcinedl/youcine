@@ -4,7 +4,7 @@ import { CopySlash, Scale, Shield } from "lucide-react";
 
 export const metadata = generateMeta(
   "DMCA Disclaimer",
-  "DMCA Policy for YouCineApkPro. We respect intellectual property rights and comply with the Digital Millennium Copyright Act.",
+  "DMCA Policy for YouCine-DL. We respect intellectual property rights and comply with the Digital Millennium Copyright Act.",
   "dmca"
 );
 
@@ -18,7 +18,7 @@ export default function DMCAPage() {
 
       <div className="prose prose-invert prose-lg max-w-none">
         <p className="text-slate-300">
-          YouCineApkPro ("we", "us", "our") respects the intellectual property rights of others and expects our users to do the same. In accordance with the Digital Millennium Copyright Act of 1998, the text of which may be found on the U.S. Copyright Office website, we will respond expeditiously to claims of copyright infringement.
+          YouCine-DL ("we", "us", "our") respects the intellectual property rights of others and expects our users to do the same. In accordance with the Digital Millennium Copyright Act of 1998, the text of which may be found on the U.S. Copyright Office website, we will respond expeditiously to claims of copyright infringement.
         </p>
 
         <div className="grid grid-cols-2 gap-4 my-8">
@@ -32,7 +32,7 @@ export default function DMCAPage() {
 
         <h2 className="text-2xl font-bold text-white mt-8 mb-4">No File Hosting</h2>
         <p className="text-slate-300">
-          We want to make it clear that YouCineApkPro is an educational and informational blog. <strong>We do not host, upload, or store any copyright-protected material, videos, movies, or APK files on our servers.</strong> All content linked on our website is stored on third-party servers not affiliated with us.
+          We want to make it clear that YouCine-DL is an educational and informational blog. <strong>We do not host, upload, or store any copyright-protected material, videos, movies, or APK files on our servers.</strong> All content linked on our website is stored on third-party servers not affiliated with us.
         </p>
 
         <h2 className="text-2xl font-bold text-white mt-8 mb-4">Takedown Request</h2>

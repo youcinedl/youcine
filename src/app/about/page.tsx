@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const metadata = generateMeta(
   "About Us",
-  "Learn more about YouCineApkPro, our mission, and what makes us the best unofficial source for YouCine APK.",
+  "Learn more about YouCine-DL, our mission, and what makes us the best unofficial source for YouCine APK.",
   "about"
 );
 
@@ -14,7 +14,7 @@ export default function AboutPage() {
       
       <div className="prose prose-invert prose-lg max-w-none">
         <p className="text-slate-300">
-          Welcome to YouCineApkPro, your number one source for all things related to YouCine. We're dedicated to providing you the very best of entertainment applications, with an emphasis on safe downloads, detailed guides, and the latest news about streaming.
+          Welcome to YouCine-DL, your number one source for all things related to YouCine. We're dedicated to providing you the very best of entertainment applications, with an emphasis on safe downloads, detailed guides, and the latest news about streaming.
         </p>
         
         <div className="grid grid-cols-2 gap-4 my-8">
@@ -28,7 +28,7 @@ export default function AboutPage() {
 
         <h2 className="text-2xl font-bold text-white mt-8 mb-4">Our Mission</h2>
         <p className="text-slate-300">
-          Founded in 2026, YouCineApkPro has come a long way from its beginnings. When we first started out, our passion for high-quality, free streaming drove us to start our own informational website.
+          Founded in 2026, YouCine-DL has come a long way from its beginnings. When we first started out, our passion for high-quality, free streaming drove us to start our own informational website.
         </p>
 
         <h2 className="text-2xl font-bold text-white mt-8 mb-4">Why Choose Us?</h2>

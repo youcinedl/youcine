@@ -1,4 +1,4 @@
-export const SITE_URL = "https://youcineapkpro.com"; // Replace with actual domain later
+export const SITE_URL = "https://www.youcine-dl.com"; // Replace with actual domain later
 
 export const NAV_LINKS = [
   { label: "Home", href: "/" },

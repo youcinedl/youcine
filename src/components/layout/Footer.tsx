@@ -57,7 +57,7 @@ export default function Footer() {
         
         <div className="border-t border-white/10 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-slate-500 text-sm">
-            &copy; {currentYear} YouCineApkPro. All Rights Reserved. This is an unofficial informational site.
+            &copy; {currentYear} YouCine-DL. All Rights Reserved. This is an unofficial informational site.
           </p>
         </div>
       </div>
