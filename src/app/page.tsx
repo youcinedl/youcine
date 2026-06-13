@@ -48,7 +48,7 @@ export default function Home() {
             <div className="space-y-8">
               <h1 className="text-5xl md:text-6xl font-outfit font-bold leading-tight">
                 YouCine APK v1.17.6 for Android & TV Box  
-                <span className="text-gradient">Features, Setup & Updates (2026)</span>
+                <span className="text-gradient"> Features, Setup & Updates (2026)</span>
               </h1>
               <p className="text-lg text-slate-300 max-w-xl leading-relaxed">
                 Youcine APK TV is a worldwide famous app where you can find a huge collection of movies, TV shows, and other amazing content. Access the latest high-quality media in a secure environment.
