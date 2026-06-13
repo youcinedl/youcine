@@ -7,7 +7,7 @@ import SchemaMarkup from "@/components/seo/SchemaMarkup";
 import HomeArticle from "@/components/home/HomeArticle";
 
 export const metadata = generateMeta(
-  "YouCine Latest v1.17.6 For Streaming, TV Shows, & More | YouCine",
+  "YouCine Latest v1.17.6 For Streaming, TV Shows, & More",
   "YouCine is a streaming app where you can watch movies, TV shows, anime, cartoons, and live sports. It works on most Android devices and Smart TVs.",
   ""
 );
