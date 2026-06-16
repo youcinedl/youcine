@@ -76,7 +76,7 @@ export default function YouCinePCPage() {
     },
     {
       question: "Is Youcine Safe to Download?",
-      answer: "Yes, Youcine is safe to download only if you download it from a trusted website like youcine-dl.com. Never download it from unknown or suspicious websites because they may contain harmful viruses that can damage your PC."
+      answer: <>Yes, Youcine is safe to download only if you download it from a trusted website like <Link href="/" className="text-primary hover:underline font-semibold">youcine-dl.com</Link>. Never download it from unknown or suspicious websites because they may contain harmful viruses that can damage your PC.</>
     },
     {
       question: "Does Youcine Cost Any Money?",
@@ -477,7 +477,7 @@ export default function YouCinePCPage() {
                   {[
                     { title: "No Direct Desktop App", desc: "Requires third-party emulators. No native Windows/Mac executable is available." },
                     { title: "Emulator Memory Cost", desc: "Setting up virtual machines uses hardware resources (RAM & CPU cores)." },
-                    { title: "Security Awareness", desc: "Avoid downloading APKs from shady sources. Rely only on trusted platforms like youcine-dl.com." }
+                    { title: "Security Awareness", desc: <>Avoid downloading APKs from shady sources. Rely only on trusted platforms like <Link href="/" className="text-primary hover:underline font-semibold">youcine-dl.com</Link>.</> }
                   ].map((item, index) => (
                     <li key={index} className="flex items-start space-x-3">
                       <span className="text-red-400 font-bold mt-1 text-sm">•</span>
@@ -518,7 +518,7 @@ export default function YouCinePCPage() {
               <div className="bg-yellow-500/10 border border-yellow-500/20 rounded-xl p-4 flex items-start space-x-3 mt-4 text-left">
                 <Info className="w-5 h-5 text-yellow-400 flex-shrink-0 mt-0.5" />
                 <p className="text-slate-300 text-xs sm:text-sm">
-                  <strong>Important Security Notice:</strong> Make sure you only acquire the Youcine APK installer from trusted platforms like <span className="text-yellow-400 font-semibold">youcine-dl.com</span> to protect your PC from malware.
+                  <strong>Important Security Notice:</strong> Make sure you only acquire the Youcine APK installer from trusted platforms like <Link href="/" className="text-yellow-400 font-semibold hover:underline">youcine-dl.com</Link> to protect your PC from malware.
                 </p>
               </div>
               <div className="pt-6 flex justify-center sm:justify-start">

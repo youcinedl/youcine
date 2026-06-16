@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 export default function HomeArticle() {
   const faqSchema = {
@@ -167,7 +168,7 @@ export default function HomeArticle() {
         <div className="glass-panel p-8 rounded-3xl border border-white/10 hover:border-white/20 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl group">
           <h2 className="text-2xl md:text-3xl font-bold text-white mb-6">What is Youcine APK?</h2>
           <p className="text-lg text-slate-300 leading-relaxed mb-4">Youcine APK is just a file that lets you install apps that are not on the Google Play Store.</p>
-          <p className="text-lg text-slate-300 leading-relaxed mb-4">Since Youcine is not available on the Play Store, you just download the APK file from a trusted site like youcinedl.com and you are good to go.</p>
+          <p className="text-lg text-slate-300 leading-relaxed mb-4">Since Youcine is not available on the Play Store, you just download the APK file from a trusted site like <Link href="/" className="text-primary hover:underline font-semibold">youcine-dl.com</Link> and you are good to go.</p>
           <p className="text-lg text-slate-300 leading-relaxed mb-4">Once it is installed, you get access to everything. Movies, TV shows, cartoons, anime, live sports, live TV channels all in HD quality. And it is completely free.</p>
           <p className="text-lg text-slate-300 leading-relaxed mb-4">And no ads either. Like, zero. No annoying pop-ups, no 30-second ads before your show. Just pure, uninterrupted watching.</p>
           <p className="text-lg text-slate-300 leading-relaxed mb-4">Going somewhere or trip without WiFi? No problem. You can download any movie or episode and watch it offline later on the bus, on a plane ona beach, anywhere.</p>
@@ -337,7 +338,7 @@ export default function HomeArticle() {
                 </li>
                 <li className="flex items-start gap-4">
                   <div className="w-8 h-8 rounded-full bg-rose-500/20 flex items-center justify-center text-rose-400 shrink-0 mt-1">!</div>
-                  <p><strong className="text-white block mb-1">Download Only from Trusted Sites</strong> Since it's not on official app stores, some websites offer fake or unsafe versions of the APK. Always download from a safe and trusted source like youcinedl.com that way you know you are getting the real, clean, virus-free file.</p>
+                  <p><strong className="text-white block mb-1">Download Only from Trusted Sites</strong> Since it's not on official app stores, some websites offer fake or unsafe versions of the APK. Always download from a safe and trusted source like <Link href="/" className="text-primary hover:underline font-semibold">youcine-dl.com</Link> that way you know you are getting the real, clean, virus-free file.</p>
                 </li>
                 <li className="flex items-start gap-4">
                   <div className="w-8 h-8 rounded-full bg-rose-500/20 flex items-center justify-center text-rose-400 shrink-0 mt-1">!</div>
@@ -613,7 +614,7 @@ export default function HomeArticle() {
 
           <div className="bg-emerald-900/20 border border-emerald-500/30 p-6 rounded-2xl">
             <h3 className="text-xl font-bold text-emerald-400 mb-2 flex items-center gap-2">✅ Download from the Right Place and You are Safe</h3>
-            <p className="text-lg text-slate-300 leading-relaxed">Here's the most important safety tip of all where you download the APK from matters a lot. If you download Youcine from a trusted and safe website like youcinedl.com, the file has already been checked for viruses and harmful stuff before it's made available to you. Think of it like buying food from a clean, trusted store versus picking it up off the street. Same product very different levels of safety. Always avoid random websites you ave never heard of. Stick to trusted sources and you will be completely fine.</p>
+            <p className="text-lg text-slate-300 leading-relaxed">Here's the most important safety tip of all where you download the APK from matters a lot. If you download Youcine from a trusted and safe website like <Link href="/" className="text-primary hover:underline font-semibold">youcine-dl.com</Link>, the file has already been checked for viruses and harmful stuff before it's made available to you. Think of it like buying food from a clean, trusted store versus picking it up off the street. Same product very different levels of safety. Always avoid random websites you ave never heard of. Stick to trusted sources and you will be completely fine.</p>
           </div>
         </div>
 
@@ -726,7 +727,7 @@ export default function HomeArticle() {
                   <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bold shrink-0">2</div>
                   <div>
                     <h4 className="font-bold text-white text-lg">Download the App</h4>
-                    <p className="text-slate-400">Open your phone's browser and go to youcinedl.com. Find the big download button and tap it. The APK file will start downloading to your phone. It only takes a few seconds.</p>
+                    <p className="text-slate-400">Open your phone's browser and go to <Link href="/" className="text-primary hover:underline font-semibold">youcine-dl.com</Link>. Find the big download button and tap it. The APK file will start downloading to your phone. It only takes a few seconds.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
@@ -762,7 +763,7 @@ export default function HomeArticle() {
                   <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bold shrink-0">2</div>
                   <div>
                     <h4 className="font-bold text-white text-lg">Get the APK File</h4>
-                    <p className="text-slate-400">You have two easy ways to do this:<br/><strong>Option A — USB Method:</strong> Download the Youcine APK on your computer from youcinedl.com. Save it onto a USB stick. Plug that USB stick into your TV.<br/><strong>Option B — Browser Method:</strong> If your Smart TV has a web browser, just open it, go to youcinedl.com, and download the file directly onto your TV. Super easy.</p>
+                    <p className="text-slate-400">You have two easy ways to do this:<br/><strong>Option A — USB Method:</strong> Download the Youcine APK on your computer from <Link href="/" className="text-primary hover:underline font-semibold">youcine-dl.com</Link>. Save it onto a USB stick. Plug that USB stick into your TV.<br/><strong>Option B — Browser Method:</strong> If your Smart TV has a web browser, just open it, go to <Link href="/" className="text-primary hover:underline font-semibold">youcine-dl.com</Link>, and download the file directly onto your TV. Super easy.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
@@ -798,7 +799,7 @@ export default function HomeArticle() {
                   <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bold shrink-0">2</div>
                   <div>
                     <h4 className="font-bold text-white text-lg">Download the APK</h4>
-                    <p className="text-slate-400">Open the browser on your TV Box. Go to youcinedl.com and tap the download button. The file will save automatically to your device.</p>
+                    <p className="text-slate-400">Open the browser on your TV Box. Go to <Link href="/" className="text-primary hover:underline font-semibold">youcine-dl.com</Link> and tap the download button. The file will save automatically to your device.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
@@ -834,7 +835,7 @@ export default function HomeArticle() {
                   <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bold shrink-0">2</div>
                   <div>
                     <h4 className="font-bold text-white text-lg">Download the Youcine APK</h4>
-                    <p className="text-slate-400">While the emulator is installing, open your browser and go to youcinedl.com. Download the Youcine APK file and save it somewhere easy to find like your Desktop.</p>
+                    <p className="text-slate-450">While the emulator is installing, open your browser and go to <Link href="/" className="text-primary hover:underline font-semibold">youcine-dl.com</Link>. Download the Youcine APK file and save it somewhere easy to find like your Desktop.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
@@ -940,7 +941,7 @@ export default function HomeArticle() {
               <li><strong className="text-rose-400 flex items-center gap-1">❌ Risky way:</strong> Downloading from random websites you have never heard of. These sites sometimes add harmful stuff to the APK file like viruses or spyware that can damage your phone or steal your information without you even knowing.</li>
             </ul>
             <p className="text-slate-300 mb-4"><strong className="text-primary">💡 Extra Safety Tip:</strong> It's always a smart idea to have a free antivirus app installed on your phone. Think of it like a security guard that checks everything coming into your device. Even if you accidentally download something bad your antivirus catches it before it can do any damage.</p>
-            <p className="text-white font-bold">Download from youcinedl.com and you will be completely fine. Simple as that!</p>
+            <p className="text-white font-bold">Download from <Link href="/" className="text-primary hover:underline font-semibold">youcine-dl.com</Link> and you will be completely fine. Simple as that!</p>
           </div>
 
           <div className="glass-panel p-8 rounded-3xl border border-white/10 hover:border-primary/50 transition-all shadow-xl group">
@@ -1311,7 +1312,7 @@ export default function HomeArticle() {
         <div className="glass-panel p-8 md:p-12 rounded-3xl border border-white/10 hover:-translate-y-1 transition-transform shadow-2xl text-center mt-16 max-w-4xl mx-auto bg-gradient-to-b from-dark-800/80 to-dark-900/80">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">Conclusion</h2>
           <p className="text-xl text-slate-300 leading-relaxed font-medium">
-            Youcine is a completely free streaming app that gives you access to thousands of movies, shows, cartoons, anime, live sports, and live TV channels all in HD quality, with no ads, no subscriptions, and no restrictions. It works on almost every device, supports multiple languages, and is incredibly easy to use. Just download it safely from youcinedl.com, install it in minutes, and enjoy unlimited entertainment for free forever.
+            Youcine is a completely free streaming app that gives you access to thousands of movies, shows, cartoons, anime, live sports, and live TV channels all in HD quality, with no ads, no subscriptions, and no restrictions. It works on almost every device, supports multiple languages, and is incredibly easy to use. Just download it safely from <Link href="/" className="text-primary hover:underline font-semibold font-bold">youcine-dl.com</Link>, install it in minutes, and enjoy unlimited entertainment for free forever.
           </p>
         </div>
 

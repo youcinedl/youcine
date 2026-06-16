@@ -80,7 +80,7 @@ export default function YouCineSmartTVPage() {
     },
     {
       question: "Is Youcine safe to download?",
-      answer: "Yes, but only if you download it from a trusted website like youcine-dl.com. Always avoid unknown or shady websites to keep your device safe."
+      answer: <>Yes, but only if you download it from a trusted website like <Link href="/" className="text-primary hover:underline font-semibold">youcine-dl.com</Link>. Always avoid unknown or shady websites to keep your device safe.</>
     },
     {
       question: "What devices support Youcine APK?",
@@ -426,7 +426,7 @@ export default function YouCineSmartTVPage() {
                 ✅ The safe and simple solution?
               </span>
               <p className="text-slate-300 text-xs sm:text-sm leading-relaxed pl-7">
-                Always download Youcine from a website you can trust. We recommend **youcine-dl.com** — it's clean, safe, and completely free of viruses or malware. Thousands of users download from it every day without any issues.
+                Always download Youcine from a website you can trust. We recommend <Link href="/" className="text-primary-light hover:underline font-bold">youcine-dl.com</Link> — it's clean, safe, and completely free of viruses or malware. Thousands of users download from it every day without any issues.
               </p>
               <p className="text-slate-200 font-bold text-xs sm:text-sm pl-7 pt-2">
                 One rule: stick to trusted sources, and you will have nothing to worry about. 🔒
@@ -455,7 +455,7 @@ export default function YouCineSmartTVPage() {
             <div className="relative z-10 space-y-4 text-center sm:text-left">
               <h3 className="text-2xl sm:text-3xl font-black text-white">Conclusion</h3>
               <p className="text-slate-300 text-sm sm:text-base leading-relaxed">
-                Youcine APK is one of the best free streaming apps available for Smart TV users today. It gives you access to thousands of movies, shows, anime, live sports, and much more — all without spending a single penny. The app is easy to install, simple to use, and works perfectly on a wide range of devices. Whether you are watching alone or enjoying a fun movie night with family and friends, Youcine delivers a true cinema-like experience right from your living room. Download it today from youcine-dl.com and start streaming the smart way.
+                Youcine APK is one of the best free streaming apps available for Smart TV users today. It gives you access to thousands of movies, shows, anime, live sports, and much more — all without spending a single penny. The app is easy to install, simple to use, and works perfectly on a wide range of devices. Whether you are watching alone or enjoying a fun movie night with family and friends, Youcine delivers a true cinema-like experience right from your living room. Download it today from <Link href="/" className="text-primary hover:underline font-semibold font-bold">youcine-dl.com</Link> and start streaming the smart way.
               </p>
               <div className="pt-6 flex justify-center sm:justify-start">
                 <a href="#download-section" className="btn-primary flex items-center space-x-2 px-8 py-3.5">

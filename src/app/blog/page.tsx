@@ -58,9 +58,11 @@ export default function BlogPage() {
         {BLOG_POSTS.map((post) => (
           <div key={post.id} className="glass-panel overflow-hidden group flex flex-col">
             <div className="relative h-64 overflow-hidden bg-dark-800">
-              <img 
+              <Image 
                 src={post.image} 
                 alt={post.title} 
+                fill
+                sizes="(max-width: 768px) 100vw, 50vw"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               />
             </div>

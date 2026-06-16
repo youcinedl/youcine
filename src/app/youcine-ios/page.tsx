@@ -77,7 +77,7 @@ export default function YouCineIOSPage() {
     },
     {
       question: "Is YouCine safe for iPhone and iPad users?",
-      answer: "Yes, YouCine is safe but only if you download it from a trusted and reliable website like youtube-dl.com. Always avoid downloading it from unknown or suspicious websites because they may contain harmful viruses that can damage your phone."
+      answer: <>Yes, YouCine is safe but only if you download it from a trusted and reliable website like <Link href="/" className="text-primary hover:underline font-semibold">youcine-dl.com</Link>. Always avoid downloading it from unknown or suspicious websites because they may contain harmful viruses that can damage your phone.</>
     }
   ];
 
@@ -471,7 +471,7 @@ export default function YouCineIOSPage() {
             <div className="relative z-10 space-y-4 text-center sm:text-left">
               <h3 className="text-2xl sm:text-3xl font-black text-white">Conclusion</h3>
               <p className="text-slate-300 text-sm sm:text-base leading-relaxed">
-                Youcine is a free app for iPhone and iPad users. You can use it to watch movies, cartoons, anime, live sports, documentaries, and TV shows all without paying anything! Installing Youcine is not hard at all. You just need a free tool called a sideloading app. Once it is installed, you can enjoy everything: subtitles, different languages, HD videos, and new content added every day! You can also download videos and watch them later without the internet. This is great for traveling or when your internet is slow. So go ahead - download Youcine today and enjoy free entertainment anytime, anywhere.
+                Youcine is a free app for iPhone and iPad users. You can use it to watch movies, cartoons, anime, live sports, documentaries, and TV shows all without paying anything! Installing Youcine is not hard at all. You just need a free tool called a sideloading app. Once it is installed, you can enjoy everything: subtitles, different languages, HD videos, and new content added every day! You can also download videos and watch them later without the internet. This is great for traveling or when your internet is slow. So go ahead - download Youcine today from <Link href="/" className="text-primary hover:underline font-semibold font-bold">youcine-dl.com</Link> and enjoy free entertainment anytime, anywhere.
               </p>
               <div className="pt-6 flex justify-center sm:justify-start">
                 <a href="#download-section" className="btn-primary flex items-center space-x-2 px-8 py-3.5">

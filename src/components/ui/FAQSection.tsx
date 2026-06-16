@@ -6,7 +6,7 @@ import { ChevronDown } from "lucide-react";
 
 interface FAQ {
   question: string;
-  answer: string;
+  answer: React.ReactNode;
 }
 
 export default function FAQSection({ faqs }: { faqs: FAQ[] }) {
