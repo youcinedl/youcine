@@ -1,0 +1,28 @@
+# YouCine
+
+YouCine is a streaming application offering free access to a large selection of movies, TV shows, anime, cartoons, and live sports. It is compatible with Android devices, Smart TVs, Firestick, PC, and iOS.
+
+## Core Pages
+
+- [Homepage](https://youcine-dl.com/): Overview of YouCine APK v1.17.6 features, installation, quick download guide, and supported devices.
+- [YouCine APK](https://youcine-dl.com/youcine-apk): Dedicated step-by-step installation guide for Android devices, mobile user experience, and features of the latest APK version.
+- [Para PC](https://youcine-dl.com/youcine-para-pc): Instructions to download and set up YouCine on Windows and macOS computers using Android emulators (like BlueStacks or NoxPlayer).
+- [Smart TV](https://youcine-dl.com/youcine-smart-tv): Installation guide for Smart TVs, Android TV, Fire TV Stick, and Chromecast.
+- [Para Smart TV](https://youcine-dl.com/youcine-para-smart-tv): Complementary guide tailored for Smart TV setups and configuration.
+- [iOS](https://youcine-dl.com/youcine-ios): Options, workarounds, and compatibility guides for running or accessing YouCine on Apple devices (iPhone/iPad).
+- [About](https://youcine-dl.com/about): Information about the YouCine platform, mission, and content offerings.
+- [Contact](https://youcine-dl.com/contact): Contact form and support information for general queries.
+- [Blog](https://youcine-dl.com/blog): Latest articles, updates, streaming tips, and guides.
+
+## Blog Articles
+
+- [Top 10 Hidden Gems to Watch on YouCine This Month](https://youcine-dl.com/blog/article-1): Discover the best underrated movies and TV shows currently streaming on YouCine.
+- [How to Fix Buffering Issues on Streaming Apps](https://youcine-dl.com/blog/article-2): Comprehensive guide to troubleshoot buffering, lag, and playback speed.
+- [The Future of Streaming: What to Expect in 2027](https://youcine-dl.com/blog/article-3): Upcoming trends in the streaming industry and how YouCine plans to adapt.
+- [Comparing YouCine with Other Streaming Giants](https://youcine-dl.com/blog/article-4): Comparative study of YouCine vs Netflix, Prime Video, and Disney+.
+
+## Utility Pages
+
+- [Privacy Policy](https://youcine-dl.com/privacy-policy): Privacy practices and data handling policies.
+- [Terms and Conditions](https://youcine-dl.com/terms): Terms of service for using the YouCine website and app.
+- [DMCA Policy](https://youcine-dl.com/dmca): Copyright infringement policy and DMCA takedown request details.

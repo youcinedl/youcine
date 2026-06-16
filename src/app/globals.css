@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@config "../../tailwind.config.ts";
+
+@layer base {
+  :root {
+    --background: #0f172a; /* Slate 900 */
+    --foreground: #f8fafc; /* Slate 50 */
+  }
+
+  body {
+    @apply bg-[var(--background)] text-[var(--foreground)] antialiased overflow-x-hidden;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply bg-white/5 backdrop-blur-lg border border-white/10 rounded-2xl shadow-xl;
+  }
+  
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary-light via-primary to-secondary;
+  }
+
+  .btn-primary {
+    @apply px-6 py-3 rounded-full bg-gradient-to-r from-primary to-secondary text-white font-semibold shadow-lg shadow-primary/30 transition-all hover:shadow-primary/50 hover:scale-105 active:scale-95;
+  }
+
+  .btn-secondary {
+    @apply px-6 py-3 rounded-full bg-white/10 text-white font-semibold backdrop-blur-md border border-white/20 transition-all hover:bg-white/20 hover:scale-105 active:scale-95;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
