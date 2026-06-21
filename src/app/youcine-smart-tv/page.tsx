@@ -479,7 +479,7 @@ export default function YouCineSmartTVPage() {
               downloads="3M+"
               requirements="Android TV OS 5.0+ / Firestick"
               lastUpdate="2026-05-26"
-              downloadLink="https://youcine-dl.com/download/youcine_tv.apk"
+              downloadLink="https://www.youcine-dl.com/download/youcine_tv.apk"
             />
             
             {/* Extra Sidebar Info Panel */}
@@ -500,6 +500,39 @@ export default function YouCineSmartTVPage() {
                   <span>→</span>
                 </a>
               </div>
+            </div>
+
+            {/* Safe platform badge list */}
+            <div className="glass-panel p-5 border border-white/5 space-y-4">
+              <h4 className="text-white font-extrabold text-base flex items-center">
+                <span className="w-2 h-4 bg-secondary rounded mr-2"></span>
+                Links Relacionados
+              </h4>
+              <p className="text-slate-400 text-xs sm:text-sm leading-relaxed">
+                Explore outros guias detalhados de configuração do YouCine para diferentes tipos de dispositivos em nossa plataforma:
+              </p>
+              <ul className="space-y-3 text-xs sm:text-sm font-semibold text-primary-light">
+                <li>
+                  <Link href="/br" className="hover:underline flex items-center gap-2">
+                    <span>📱</span> YouCine APK para Celular (Android)
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/youcine-para-pc" className="hover:underline flex items-center gap-2">
+                    <span>💻</span> YouCine para Computador (PC)
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/youcine-alternative" className="hover:underline flex items-center gap-2">
+                    <span>📺</span> YouCine para Smart TV (Alternativo)
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/youcine-ios" className="hover:underline flex items-center gap-2">
+                    <span>🍎</span> YouCine para iPhone / iOS
+                  </Link>
+                </li>
+              </ul>
             </div>
 
           </div>

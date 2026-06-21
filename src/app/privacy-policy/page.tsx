@@ -18,12 +18,12 @@ export default function PrivacyPolicyPage() {
 
       <div className="prose prose-invert prose-lg max-w-none">
         <p className="text-slate-300">
-          At YouCine-DL, accessible from https://youcine-dl.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by YouCine-DL and how we use it.
+          At YouCine-DL, accessible from https://www.youcine-dl.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by YouCine-DL and how we use it.
         </p>
 
         <div className="grid grid-cols-2 gap-4 my-8">
           <div className="relative aspect-video rounded-xl overflow-hidden bg-dark-800">
-            <Image src="/images/hero_banner_1778386917716.png" fill loading="lazy" sizes="(max-width: 768px) 100vw, 50vw"  alt="Privacy Concept" className="w-full h-full object-cover" />
+            <Image src="/images/hero_banner_1778386917716.png" fill priority sizes="(max-width: 768px) 100vw, 50vw"  alt="Privacy Concept" className="w-full h-full object-cover" />
           </div>
           <div className="relative aspect-video rounded-xl overflow-hidden bg-dark-800 flex items-center justify-center">
              <ShieldAlert className="w-16 h-16 text-primary opacity-50" />

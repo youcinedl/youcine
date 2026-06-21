@@ -4,12 +4,15 @@ import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
-const outfit = Outfit({ subsets: ["latin"], variable: "--font-outfit" });
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
+const outfit = Outfit({ subsets: ["latin"], variable: "--font-outfit", display: "swap" });
 
 export const metadata: Metadata = {
   title: "YouCine APK | Download Latest 2026",
   description: "Download Youcine APK for easy access to a wide range of movies and TV shows. Enjoy streaming with a user-friendly interface on your device.",
+  icons: {
+    icon: "/images/youcine logo.webp",
+  },
 };
 
 export default function RootLayout({

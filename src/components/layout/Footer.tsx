@@ -33,10 +33,9 @@ export default function Footer() {
           <div>
             <h3 className="text-white font-semibold text-lg mb-4">Download Guides</h3>
             <ul className="space-y-3">
-              <li><Link href="/youcine-apk" className="text-slate-400 hover:text-white hover:underline transition-all">YouCine APK (Android)</Link></li>
+              <li><Link href="/br" className="text-slate-400 hover:text-white hover:underline transition-all">YouCine APK (Android)</Link></li>
               <li><Link href="/youcine-para-pc" className="text-slate-400 hover:text-white hover:underline transition-all">YouCine para PC (Windows/Mac)</Link></li>
               <li><Link href="/youcine-smart-tv" className="text-slate-400 hover:text-white hover:underline transition-all">YouCine Smart TV</Link></li>
-              <li><Link href="/youcine-para-smart-tv" className="text-slate-400 hover:text-white hover:underline transition-all">YouCine para Smart TV</Link></li>
               <li><Link href="/youcine-ios" className="text-slate-400 hover:text-white hover:underline transition-all">YouCine iOS (iPhone/iPad)</Link></li>
             </ul>
           </div>

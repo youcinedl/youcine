@@ -16,7 +16,7 @@ export default function Article3Page() {
 
       <div className="prose prose-invert prose-lg max-w-none">
         <div className="relative aspect-video rounded-xl overflow-hidden mb-8">
-          <Image src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2070&auto=format&fit=crop" fill loading="lazy" sizes="(max-width: 768px) 100vw, 50vw"  alt="Future Technology" className="w-full h-full object-cover" />
+          <Image src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2070&auto=format&fit=crop" fill priority sizes="(max-width: 768px) 100vw, 50vw"  alt="Future Technology" className="w-full h-full object-cover" />
         </div>
 
         <p className="text-slate-300">
@@ -46,7 +46,7 @@ export default function Article3Page() {
         </div>
 
         <p className="text-slate-300">
-          YouCine is committed to staying at the forefront of these innovations to provide the best possible experience for our users. Be sure to check our guides for installing <Link href="/youcine-apk" className="text-primary hover:underline font-semibold">YouCine on Android</Link>, setting up <Link href="/youcine-para-pc" className="text-primary hover:underline font-semibold">YouCine on PC</Link>, or getting it working on your <Link href="/youcine-smart-tv" className="text-primary hover:underline font-semibold">YouCine Smart TV</Link> to stay updated with the latest software patches.
+          YouCine is committed to staying at the forefront of these innovations to provide the best possible experience for our users. Be sure to check our guides for installing <Link href="/br" className="text-primary hover:underline font-semibold">YouCine on Android</Link>, setting up <Link href="/youcine-para-pc" className="text-primary hover:underline font-semibold">YouCine on PC</Link>, or getting it working on your <Link href="/youcine-smart-tv" className="text-primary hover:underline font-semibold">YouCine Smart TV</Link> to stay updated with the latest software patches.
         </p>
       </div>
 
@@ -54,7 +54,7 @@ export default function Article3Page() {
       <div className="mt-16 pt-8 border-t border-white/10">
         <h3 className="text-2xl font-bold text-white mb-6">Quick Installation Guides</h3>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          <Link href="/youcine-apk" className="glass-panel p-5 text-center hover:border-primary/40 transition-all rounded-2xl block hover:-translate-y-1 transform duration-300">
+          <Link href="/br" className="glass-panel p-5 text-center hover:border-primary/40 transition-all rounded-2xl block hover:-translate-y-1 transform duration-300">
             <span className="block text-3xl mb-2">📱</span>
             <span className="font-bold text-white text-base block mb-1">Android APK</span>
             <span className="text-xs text-slate-400">Mobile & TV Box</span>

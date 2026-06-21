@@ -18,13 +18,13 @@ export default function TermsPage() {
 
       <div className="prose prose-invert prose-lg max-w-none">
         <p className="text-slate-300">
-          These terms and conditions outline the rules and regulations for the use of YouCine-DL's Website, located at https://youcine-dl.com.
+          These terms and conditions outline the rules and regulations for the use of YouCine-DL's Website, located at https://www.youcine-dl.com.
           By accessing this website we assume you accept these terms and conditions. Do not continue to use YouCine-DL if you do not agree to take all of the terms and conditions stated on this page.
         </p>
 
         <div className="grid grid-cols-2 gap-4 my-8">
           <div className="relative aspect-video rounded-xl overflow-hidden bg-dark-800">
-            <Image src="/images/hero_banner_1778386917716.png" fill loading="lazy" sizes="(max-width: 768px) 100vw, 50vw"  alt="Terms Info" className="w-full h-full object-cover" />
+            <Image src="/images/hero_banner_1778386917716.png" fill priority sizes="(max-width: 768px) 100vw, 50vw"  alt="Terms Info" className="w-full h-full object-cover" />
           </div>
           <div className="relative aspect-video rounded-xl overflow-hidden bg-dark-800 flex items-center justify-center">
              <FileText className="w-16 h-16 text-primary opacity-50" />

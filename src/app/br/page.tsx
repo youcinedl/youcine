@@ -2,25 +2,25 @@ import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
 import DownloadCard from "@/components/ui/DownloadCard";
-import {
-  Download,
-  Smartphone,
-  Monitor,
-  Tv,
-  Apple,
-  Check,
-  X,
-  Star,
-  Info,
-  ShieldCheck,
-  AlertTriangle,
-  Search,
-  Sliders,
-  Sparkles,
-  Play,
-  Settings,
-  HardDrive,
-  Layers,
+import { 
+  Download, 
+  Smartphone, 
+  Monitor, 
+  Tv, 
+  Apple, 
+  Check, 
+  X, 
+  Star, 
+  Info, 
+  ShieldCheck, 
+  AlertTriangle, 
+  Search, 
+  Sliders, 
+  Sparkles, 
+  Play, 
+  Settings, 
+  HardDrive, 
+  Layers, 
   Wifi,
   ChevronDown
 } from "lucide-react";
@@ -30,13 +30,16 @@ export const metadata: Metadata = {
   title: "YouCine APK v1.17.6 para Android e TV Box – Grátis, Sem Anúncios, HD (2026)",
   description: "Baixe o YouCine APK v1.17.6 gratuitamente para Android, Smart TV, TV Box e PC. Assista filmes, séries, anime, esportes ao vivo e canais de TV em HD, sem anúncios e sem assinatura. Seguro e fácil de instalar!",
   alternates: {
-    canonical: "https://youcine-dl.com/br",
+    canonical: "https://www.youcine-dl.com/br",
   },
   openGraph: {
     title: "YouCine APK v1.17.6 para Android e TV Box – Grátis, Sem Anúncios, HD (2026)",
     description: "Baixe o YouCine APK v1.17.6 gratuitamente para Android, Smart TV, TV Box e PC. Assista filmes, séries, anime, esportes ao vivo e canais de TV em HD, sem anúncios e sem assinatura. Seguro e fácil de instalar!",
-    url: "https://youcine-dl.com/br",
+    url: "https://www.youcine-dl.com/br",
     type: "website",
+  },
+  icons: {
+    icon: "/images/youcine logo.webp",
   }
 };
 
@@ -70,24 +73,24 @@ export default function YouCineApkPage() {
 
   return (
     <article className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 md:py-24">
-
+      
       {/* 1. HERO HEADER SECTION */}
       <header className="relative w-full mb-16 sm:mb-20 text-center lg:text-left">
         <div className="absolute -top-12 -left-12 w-72 h-72 bg-primary/20 rounded-full blur-3xl -z-10"></div>
         <div className="absolute top-12 right-12 w-72 h-72 bg-secondary/20 rounded-full blur-3xl -z-10"></div>
-
+        
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
           <div className="lg:col-span-7 space-y-6">
             <div className="inline-flex items-center space-x-2 bg-gradient-to-r from-primary/10 to-secondary/10 border border-primary/20 rounded-full px-4 py-1.5 text-xs sm:text-sm font-semibold text-primary-light">
               <Smartphone className="w-4 h-4 text-secondary" />
               <span>YouCine APK v1.17.6 Atualizado 2026</span>
             </div>
-
+            
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white leading-tight tracking-tight">
-              YouCine APK v1.17.6 <br />
+              YouCine APK v1.17.6 <br/>
               <span className="text-gradient">para Android e TV Box</span>
             </h1>
-
+            
             <p className="text-slate-300 text-base sm:text-lg md:text-xl font-medium max-w-2xl leading-relaxed mx-auto lg:mx-0">
               O Youcine APK TV é um aplicativo mundialmente famoso onde você encontra uma enorme coleção de filmes, séries de TV e outros conteúdos incríveis. Acesse a mídia mais recente em alta qualidade em um ambiente seguro.
             </p>
@@ -110,9 +113,9 @@ export default function YouCineApkPage() {
           </div>
 
           <div className="lg:col-span-5 relative w-full aspect-video sm:aspect-[4/3] lg:aspect-square xl:aspect-[4/3] rounded-3xl overflow-hidden glass-panel border border-white/10 shadow-2xl group">
-            <Image
-              src="/images/app_interface_1778387008367.png"
-              alt="YouCine APK Interface"
+            <Image 
+              src="/images/app_interface_1778387008367.png" 
+              alt="YouCine APK Interface" 
               fill
               priority
               sizes="(max-width: 1024px) 100vw, 40vw"
@@ -136,7 +139,7 @@ export default function YouCineApkPage() {
             Youcine APK v1.17.6 – Download para Android, TV, TV Box, PC e iOS
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            <Link href="/youcine-apk" className="bg-[#fbbf24] hover:bg-[#f59e0b] text-black font-bold py-4 px-2 rounded-xl flex flex-col items-center justify-center transition-transform hover:-translate-y-1 shadow-lg shadow-[#fbbf24]/20 text-sm">
+            <Link href="/br" className="bg-[#fbbf24] hover:bg-[#f59e0b] text-black font-bold py-4 px-2 rounded-xl flex flex-col items-center justify-center transition-transform hover:-translate-y-1 shadow-lg shadow-[#fbbf24]/20 text-sm">
               <span className="text-xl mb-1">📱</span>
               <span>APK Android</span>
             </Link>
@@ -160,7 +163,7 @@ export default function YouCineApkPage() {
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 xl:gap-12" id="download-section">
         {/* Main Content Area */}
         <div className="lg:col-span-8 space-y-12 sm:space-y-16">
-
+          
           {/* A. O QUE É O YOUCINE? */}
           <section className="space-y-6">
             <div className="flex items-center space-x-3">
@@ -441,7 +444,7 @@ export default function YouCineApkPage() {
               <div className="w-1.5 h-8 bg-gradient-primary rounded-full"></div>
               <h2 className="text-2xl sm:text-3xl font-extrabold text-white">Como Baixar e Instalar o Youcine</h2>
             </div>
-
+            
             <div className="space-y-6 text-slate-300">
               <div className="glass-panel p-6 border border-white/5">
                 <h4 className="text-white font-bold text-lg mb-3 flex items-center gap-2">
@@ -508,7 +511,7 @@ export default function YouCineApkPage() {
               <div className="w-1.5 h-8 bg-gradient-primary rounded-full"></div>
               <h2 className="text-2xl sm:text-3xl font-extrabold text-white">Segurança e Legalidade</h2>
             </div>
-
+            
             <div className="grid md:grid-cols-2 gap-8">
               <div className="glass-panel p-6 border border-white/10 space-y-3">
                 <h4 className="text-white font-bold text-lg flex items-center gap-2">
@@ -539,9 +542,9 @@ export default function YouCineApkPage() {
             <p className="text-slate-350 text-base">
               Se você tiver algum problema de funcionamento, use o nosso guia rápido interativo de soluções abaixo:
             </p>
-
+            
             <TroubleshootingAccordion faqs={troubleshootingData} />
-
+            
             <div className="bg-gradient-to-r from-primary/10 via-secondary/5 to-transparent border-l-4 border-primary rounded-r-2xl p-5 mt-4 text-sm text-slate-300">
               <strong>🚀 Lista Rápida de Soluções — Tente Primeiro!</strong>
               <ul className="list-disc pl-5 mt-2 space-y-1">
@@ -626,17 +629,17 @@ export default function YouCineApkPage() {
         {/* Sticky Sidebar Component */}
         <aside className="lg:col-span-4 space-y-6">
           <div className="sticky top-28 space-y-6">
-
+            
             {/* Main Download Card */}
-            <DownloadCard
+            <DownloadCard 
               version="v1.17.6"
               size="36 MB"
               downloads="5M+"
               requirements="Android 4.4+"
               lastUpdate="Hoje"
-              downloadLink="https://youcine-dl.com/download/youcine.apk"
+              downloadLink="https://www.youcine-dl.com/download/youcine.apk"
             />
-
+            
             {/* Safe platform badge list */}
             <div className="glass-panel p-5 border border-white/5 space-y-4 text-center sm:text-left">
               <h4 className="text-white font-extrabold text-base flex items-center justify-center sm:justify-start">
@@ -658,7 +661,7 @@ export default function YouCineApkPage() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/youcine-para-smart-tv" className="hover:underline flex items-center gap-2">
+                  <Link href="/youcine-alternative" className="hover:underline flex items-center gap-2">
                     <span>📺</span> YouCine para Smart TV (Alternativo)
                   </Link>
                 </li>

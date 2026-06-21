@@ -88,7 +88,7 @@ export default function Home() {
                 downloads="5M+"
                 requirements="Android 4.4+"
                 lastUpdate="Today"
-                downloadLink="/youcine-apk"
+                downloadLink="/br"
               />
             </div>
           </div>
@@ -103,7 +103,7 @@ export default function Home() {
           </div>
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 mb-10">
-            <Link href="/youcine-apk" className="bg-[#fbbf24] hover:bg-[#f59e0b] text-black font-bold py-5 px-2 rounded-xl flex flex-col items-center justify-center transition-transform hover:-translate-y-1 shadow-lg shadow-[#fbbf24]/20 text-center">
+            <Link href="/br" className="bg-[#fbbf24] hover:bg-[#f59e0b] text-black font-bold py-5 px-2 rounded-xl flex flex-col items-center justify-center transition-transform hover:-translate-y-1 shadow-lg shadow-[#fbbf24]/20 text-center">
               <span>📱 Youcine APK for</span>
               <span>Android</span>
             </Link>

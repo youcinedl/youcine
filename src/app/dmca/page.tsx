@@ -26,7 +26,7 @@ export default function DMCAPage() {
              <Scale className="w-16 h-16 text-primary opacity-50" />
           </div>
           <div className="relative aspect-video rounded-xl overflow-hidden bg-dark-800">
-            <Image src="/images/app_interface_1778387008367.png" fill loading="lazy" sizes="(max-width: 768px) 100vw, 50vw"  alt="Interface" className="w-full h-full object-cover" />
+            <Image src="/images/app_interface_1778387008367.png" fill priority sizes="(max-width: 768px) 100vw, 50vw"  alt="Interface" className="w-full h-full object-cover" />
           </div>
         </div>
 

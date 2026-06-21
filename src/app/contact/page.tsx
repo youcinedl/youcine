@@ -52,7 +52,7 @@ export default function ContactPage() {
           
           <div className="grid grid-cols-2 gap-4">
             <div className="relative aspect-square rounded-xl overflow-hidden bg-dark-800">
-              <Image src="/images/hero_banner_1778386917716.png" fill loading="lazy" sizes="(max-width: 768px) 100vw, 50vw"  alt="Banner" className="w-full h-full object-cover" />
+              <Image src="/images/hero_banner_1778386917716.png" fill priority sizes="(max-width: 768px) 100vw, 50vw"  alt="Banner" className="w-full h-full object-cover" />
             </div>
             <div className="relative aspect-square rounded-xl overflow-hidden bg-dark-800">
               <Image src="https://images.unsplash.com/photo-1596524430615-b46475ddff6e?q=80&w=2070&auto=format&fit=crop" fill loading="lazy" sizes="(max-width: 768px) 100vw, 50vw"  alt="Support" className="w-full h-full object-cover" />

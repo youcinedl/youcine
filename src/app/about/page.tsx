@@ -19,10 +19,10 @@ export default function AboutPage() {
         
         <div className="grid grid-cols-2 gap-4 my-8">
           <div className="relative aspect-video rounded-xl overflow-hidden">
-            <Image src="/images/hero_banner_1778386917716.png" alt="YouCine Interface" fill className="object-cover" />
+            <Image src="/images/hero_banner_1778386917716.png" alt="YouCine Interface" fill priority className="object-cover" />
           </div>
           <div className="relative aspect-video rounded-xl overflow-hidden">
-            <Image src="/images/feature_devices_1778386931912.png" alt="Devices" fill className="object-cover" />
+            <Image src="/images/feature_devices_1778386931912.png" alt="Devices" fill priority className="object-cover" />
           </div>
         </div>
 

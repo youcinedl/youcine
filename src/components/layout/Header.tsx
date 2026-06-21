@@ -3,11 +3,12 @@
 import { useState } from "react";
 import Link from "next/link";
 import { NAV_LINKS } from "@/lib/constants";
-import { Menu, X, Download } from "lucide-react";
-import { motion } from "framer-motion";
+import { Menu, X, Globe, ChevronDown } from "lucide-react";
+import { motion, AnimatePresence } from "framer-motion";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const [isLangOpen, setIsLangOpen] = useState(false);
 
   return (
     <header className="sticky top-0 z-50 w-full glass-panel border-b border-white/10 rounded-none bg-dark-900/80">
@@ -39,11 +40,47 @@ export default function Header() {
             ))}
           </nav>
 
-          <div className="hidden md:flex items-center">
-            <Link href="/youcine-apk" className="btn-primary flex items-center space-x-2">
-              <Download className="w-4 h-4" />
-              <span>Download APK</span>
-            </Link>
+          {/* Language Dropdown for Desktop */}
+          <div className="hidden md:block relative">
+            <button
+              onClick={() => setIsLangOpen(!isLangOpen)}
+              className="btn-primary flex items-center space-x-2 px-4 py-2 text-sm"
+            >
+              <Globe className="h-4 w-4" />
+              <span>Language</span>
+              <ChevronDown className={`h-4 w-4 transition-transform ${isLangOpen ? 'rotate-180' : ''}`} />
+            </button>
+            <AnimatePresence>
+              {isLangOpen && (
+                <>
+                  {/* Backdrop overlay to close when clicking outside */}
+                  <div className="fixed inset-0 z-40" onClick={() => setIsLangOpen(false)} />
+                  <motion.div
+                    initial={{ opacity: 0, y: 10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: 10 }}
+                    className="absolute right-0 mt-2 w-44 bg-dark-800 border border-white/10 rounded-xl shadow-xl py-2 z-50 overflow-hidden"
+                  >
+                    <Link
+                      href="/"
+                      onClick={() => setIsLangOpen(false)}
+                      className="flex items-center space-x-3 px-4 py-2.5 hover:bg-white/5 text-slate-300 hover:text-white text-sm transition-colors"
+                    >
+                      <span className="text-base leading-none">🇺🇸</span>
+                      <span className="font-medium">English</span>
+                    </Link>
+                    <Link
+                      href="/br"
+                      onClick={() => setIsLangOpen(false)}
+                      className="flex items-center space-x-3 px-4 py-2.5 hover:bg-white/5 text-slate-300 hover:text-white text-sm transition-colors"
+                    >
+                      <span className="text-base leading-none">🇧🇷</span>
+                      <span className="font-medium">Português</span>
+                    </Link>
+                  </motion.div>
+                </>
+              )}
+            </AnimatePresence>
           </div>
 
           {/* Mobile menu button */}
@@ -76,10 +113,31 @@ export default function Header() {
                 {link.label}
               </Link>
             ))}
-            <Link href="/youcine-apk" className="mt-4 w-full btn-primary flex justify-center items-center space-x-2">
-              <Download className="w-4 h-4" />
-              <span>Download APK</span>
-            </Link>
+            
+            {/* Mobile Language Section */}
+            <div className="border-t border-white/10 pt-4 mt-4">
+              <span className="block px-3 py-1.5 text-xs font-semibold uppercase tracking-wider text-slate-500">
+                Language
+              </span>
+              <div className="flex flex-col space-y-1 mt-1">
+                <Link
+                  href="/"
+                  onClick={() => setIsOpen(false)}
+                  className="flex items-center space-x-3 px-3 py-3 rounded-md text-base font-medium text-slate-300 hover:text-white hover:bg-white/5 transition-colors"
+                >
+                  <span>🇺🇸</span>
+                  <span>English</span>
+                </Link>
+                <Link
+                  href="/br"
+                  onClick={() => setIsOpen(false)}
+                  className="flex items-center space-x-3 px-3 py-3 rounded-md text-base font-medium text-slate-300 hover:text-white hover:bg-white/5 transition-colors"
+                >
+                  <span>🇧🇷</span>
+                  <span>Português</span>
+                </Link>
+              </div>
+            </div>
           </div>
         </motion.div>
       )}

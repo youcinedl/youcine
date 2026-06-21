@@ -6,7 +6,7 @@ import DownloadCard from "@/components/ui/DownloadCard";
 export const metadata = generateMeta(
   "YouCine para Smart TV (Android TV/TV Box)",
   "Baixe e instale o YouCine diretamente na sua Smart TV. Compatível com Android TV, Roku, e TV Box. Guia completo passo a passo.",
-  "youcine-para-smart-tv"
+  "youcine-alternative"
 );
 
 export default function YouCineSmartTVPage() {
@@ -23,7 +23,7 @@ export default function YouCineSmartTVPage() {
         <div className="lg:col-span-2 prose prose-invert prose-lg max-w-none">
           <h2 className="text-3xl font-bold text-white">Guia de Instalação para Smart TV</h2>
           <p className="text-slate-300">
-            Ter o YouCine na sua TV é a melhor forma de aproveitar filmes e séries em família. O processo é simples para TVs com sistema Android TV ou TV Box. Sempre baixe a versão oficial através do site <Link href="/" className="text-primary hover:underline font-semibold font-bold">youcine-dl.com</Link> para garantir a segurança dos seus dados. Se você deseja usar o aplicativo em outras plataformas ou ver guias alternativos, leia nossos guias sobre <Link href="/youcine-apk" className="text-primary hover:underline font-semibold">YouCine APK para celular</Link>, <Link href="/youcine-para-pc" className="text-primary hover:underline font-semibold">YouCine para computador (PC)</Link>, <Link href="/youcine-smart-tv" className="text-primary hover:underline font-semibold">YouCine para Smart TV (Guia Completo)</Link> ou <Link href="/youcine-ios" className="text-primary hover:underline font-semibold">YouCine para dispositivos iOS</Link>.
+            Ter o YouCine na sua TV é a melhor forma de aproveitar filmes e séries em família. O processo é simples para TVs com sistema Android TV ou TV Box. Sempre baixe a versão oficial através do site <Link href="/" className="text-primary hover:underline font-semibold font-bold">youcine-dl.com</Link> para garantir a segurança dos seus dados. Se você deseja usar o aplicativo em outras plataformas ou ver guias alternativos, leia nossos guias sobre <Link href="/br" className="text-primary hover:underline font-semibold">YouCine APK para celular</Link>, <Link href="/youcine-para-pc" className="text-primary hover:underline font-semibold">YouCine para computador (PC)</Link>, <Link href="/youcine-smart-tv" className="text-primary hover:underline font-semibold">YouCine para Smart TV (Guia Completo)</Link> ou <Link href="/youcine-ios" className="text-primary hover:underline font-semibold">YouCine para dispositivos iOS</Link>.
           </p>
           
           <div className="grid grid-cols-2 gap-4 my-8">
@@ -59,16 +59,48 @@ export default function YouCineSmartTVPage() {
           </p>
         </div>
 
-        <div className="lg:col-span-1">
-          <div className="sticky top-24">
+        <div className="lg:col-span-1 space-y-6">
+          <div className="sticky top-24 space-y-6">
             <DownloadCard 
               version="v1.17.6 (TV Version)"
               size="28 MB"
               downloads="2M+"
               requirements="Android TV 5.0+"
               lastUpdate="Today"
-              downloadLink="#"
+              downloadLink="https://www.youcine-dl.com/download/youcine_tv.apk"
             />
+            
+            <div className="glass-panel p-5 border border-white/5 space-y-4 text-left">
+              <h4 className="text-white font-extrabold text-base flex items-center">
+                <span className="w-2 h-4 bg-secondary rounded mr-2"></span>
+                Links Relacionados
+              </h4>
+              <p className="text-slate-400 text-xs leading-relaxed">
+                Explore outros guias detalhados de configuração do YouCine para diferentes tipos de dispositivos em nossa plataforma:
+              </p>
+              <ul className="space-y-3 text-xs font-semibold text-primary-light">
+                <li>
+                  <Link href="/br" className="hover:underline flex items-center gap-2">
+                    <span>📱</span> YouCine APK para Celular (Android)
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/youcine-para-pc" className="hover:underline flex items-center gap-2">
+                    <span>💻</span> YouCine para Computador (PC)
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/youcine-smart-tv" className="hover:underline flex items-center gap-2">
+                    <span>📺</span> YouCine para Smart TV (Principal)
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/youcine-ios" className="hover:underline flex items-center gap-2">
+                    <span>🍎</span> YouCine para iPhone / iOS
+                  </Link>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

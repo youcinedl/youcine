@@ -4,9 +4,8 @@ import { SITE_URL } from "@/lib/constants";
 export default function sitemap(): MetadataRoute.Sitemap {
   const routes = [
     "",
-    "/youcine-apk",
+    "/br",
     "/youcine-para-pc",
-    "/youcine-para-smart-tv",
     "/youcine-smart-tv",
     "/youcine-ios",
     "/about",
@@ -24,7 +23,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return routes.map((route) => ({
     url: `${SITE_URL}${route}`,
     lastModified: new Date(),
-    changeFrequency: (route === "" || route === "/youcine-apk" ? "daily" : "weekly") as "daily" | "weekly",
-    priority: route === "" ? 1 : route === "/youcine-apk" ? 0.9 : 0.8,
+    changeFrequency: (route === "" || route === "/br" ? "daily" : "weekly") as "daily" | "weekly",
+    priority: route === "" ? 1 : route === "/br" ? 0.9 : 0.8,
   }));
 }
