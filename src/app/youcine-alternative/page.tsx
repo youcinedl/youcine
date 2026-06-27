@@ -15,7 +15,7 @@ export default function YouCineSmartTVPage() {
       <div className="text-center mb-16">
         <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">YouCine para Smart TV</h1>
         <p className="text-slate-300 max-w-2xl mx-auto text-lg">
-          A melhor experiência de cinema no conforto do seu sofá. Instale na sua TV Box ou Smart TV Android.
+          A melhor experiência de cinema no conforto do s sofá. Instale na sua TV Box ou Smart TV Android.
         </p>
       </div>
 
@@ -25,13 +25,13 @@ export default function YouCineSmartTVPage() {
           <p className="text-slate-300">
             Ter o YouCine na sua TV é a melhor forma de aproveitar filmes e séries em família. O processo é simples para TVs com sistema Android TV ou TV Box. Sempre baixe a versão oficial através do site <Link href="/" className="text-primary hover:underline font-semibold font-bold">youcine-dl.com</Link> para garantir a segurança dos seus dados. Se você deseja usar o aplicativo em outras plataformas ou ver guias alternativos, leia nossos guias sobre <Link href="/br" className="text-primary hover:underline font-semibold">YouCine APK para celular</Link>, <Link href="/youcine-para-pc" className="text-primary hover:underline font-semibold">YouCine para computador (PC)</Link>, <Link href="/youcine-smart-tv" className="text-primary hover:underline font-semibold">YouCine para Smart TV (Guia Completo)</Link> ou <Link href="/youcine-ios" className="text-primary hover:underline font-semibold">YouCine para dispositivos iOS</Link>.
           </p>
-          
+
           <div className="grid grid-cols-2 gap-4 my-8">
             <div className="relative aspect-video rounded-xl overflow-hidden bg-dark-800">
-              <Image src="/images/hero_banner_1778386917716.png" fill loading="lazy" sizes="(max-width: 768px) 100vw, 50vw"  alt="TV Interface" className="w-full h-full object-cover" />
+              <Image src="/images/hero_banner_1778386917716.png" fill loading="lazy" sizes="(max-width: 768px) 100vw, 50vw" alt="TV Interface" className="w-full h-full object-cover" />
             </div>
             <div className="relative aspect-video rounded-xl overflow-hidden bg-dark-800">
-              <Image src="https://images.unsplash.com/photo-1593784991095-a205069470b6?q=80&w=2070&auto=format&fit=crop" fill loading="lazy" sizes="(max-width: 768px) 100vw, 50vw"  alt="Smart TV Setup" className="w-full h-full object-cover" />
+              <Image src="https://images.unsplash.com/photo-1593784991095-a205069470b6?q=80&w=2070&auto=format&fit=crop" fill loading="lazy" sizes="(max-width: 768px) 100vw, 50vw" alt="Smart TV Setup" className="w-full h-full object-cover" />
             </div>
           </div>
 
@@ -44,11 +44,11 @@ export default function YouCineSmartTVPage() {
           </ol>
 
           <div className="grid grid-cols-2 gap-4 my-8">
-             <div className="relative aspect-video rounded-xl overflow-hidden bg-dark-800">
-              <Image src="/images/feature_devices_1778386931912.png" fill loading="lazy" sizes="(max-width: 768px) 100vw, 50vw"  alt="Devices Connected" className="w-full h-full object-cover" />
+            <div className="relative aspect-video rounded-xl overflow-hidden bg-dark-800">
+              <Image src="/images/feature_devices_1778386931912.png" fill loading="lazy" sizes="(max-width: 768px) 100vw, 50vw" alt="Devices Connected" className="w-full h-full object-cover" />
             </div>
             <div className="relative aspect-video rounded-xl overflow-hidden bg-dark-800">
-              <Image src="https://images.unsplash.com/photo-1601944177325-f8867652837f?q=80&w=2070&auto=format&fit=crop" fill loading="lazy" sizes="(max-width: 768px) 100vw, 50vw"  alt="Living Room TV" className="w-full h-full object-cover" />
+              <Image src="https://images.unsplash.com/photo-1601944177325-f8867652837f?q=80&w=2070&auto=format&fit=crop" fill loading="lazy" sizes="(max-width: 768px) 100vw, 50vw" alt="Living Room TV" className="w-full h-full object-cover" />
             </div>
           </div>
 
@@ -61,7 +61,7 @@ export default function YouCineSmartTVPage() {
 
         <div className="lg:col-span-1 space-y-6">
           <div className="sticky top-24 space-y-6">
-            <DownloadCard 
+            <DownloadCard
               version="v1.17.6 (TV Version)"
               size="28 MB"
               downloads="2M+"
@@ -69,7 +69,7 @@ export default function YouCineSmartTVPage() {
               lastUpdate="Today"
               downloadLink="https://www.youcine-dl.com/download/youcine_tv.apk"
             />
-            
+
             <div className="glass-panel p-5 border border-white/5 space-y-4 text-left">
               <h4 className="text-white font-extrabold text-base flex items-center">
                 <span className="w-2 h-4 bg-secondary rounded mr-2"></span>
